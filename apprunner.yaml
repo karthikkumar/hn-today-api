@@ -5,4 +5,4 @@ build:
     build:
       - npm install                                  
 run:                              
-  command: node src/index.js
+  command: npm start
