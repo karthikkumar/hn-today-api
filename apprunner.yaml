@@ -2,11 +2,7 @@ version: 1.0
 
 # AWS App Runner configuration file for hn-today-api
 
-# Specify the runtime environment
 runtime: nodejs22
-
-# The port your application listens on
-port: 3000
 
 # The command to start your application
 startCommand: npm start
