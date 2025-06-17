@@ -6,3 +6,5 @@ config
 !.elasticbeanstalk/*.global.yml
 .ebextensions
 .env
+
+Archive.zip
