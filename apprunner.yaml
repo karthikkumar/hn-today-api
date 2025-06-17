@@ -3,6 +3,6 @@ runtime: nodejs22
 build:
   commands:    
     build:
-      - npm install --production                                  
+      - npm install                                  
 run:                              
   command: node src/index.js
