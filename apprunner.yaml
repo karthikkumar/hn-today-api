@@ -7,11 +7,6 @@ runtime: nodejs22
 run:
   command: npm start
 
-environment:
-  NODE_ENV: production
-  # MONGO_DB_URL: <set-in-aws-console-or-here>
-  # PORT: 3000
-
 healthCheck:
   path: /
   interval: 10
