@@ -4,16 +4,14 @@ version: 1.0
 
 runtime: nodejs22
 
-# The command to start your application
-startCommand: npm start
+run:
+  command: npm start
 
-# Environment variables (override or add more in AWS console as needed)
 environment:
   NODE_ENV: production
   # MONGO_DB_URL: <set-in-aws-console-or-here>
   # PORT: 3000
 
-# Health check configuration
 healthCheck:
   path: /
   interval: 10
