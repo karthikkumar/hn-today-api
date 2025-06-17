@@ -1,8 +1,0 @@
-version: 1.0
-
-# AWS App Runner configuration file for hn-today-api
-
-runtime: nodejs22
-
-run:
-  command: npm start
