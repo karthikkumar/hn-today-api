@@ -6,10 +6,3 @@ runtime: nodejs22
 
 run:
   command: npm start
-
-healthCheck:
-  path: /
-  interval: 10
-  timeout: 5
-  healthyThreshold: 1
-  unhealthyThreshold: 5
